@@ -36,7 +36,7 @@ struct HomeCards: View {
             RoundedRectangle(cornerRadius: 30)
                 .frame(width: 150, height: 250)
                 .foregroundColor(.white)
-                .shadow(color: .gray, radius: 5)
+                .shadow(color: .gray, radius: 5, x: 0, y: 5)
             VStack(alignment: .leading, spacing: 30) {
                 Text(type.title)
                     .font(.custom("RedHatText-Bold", size: 22))

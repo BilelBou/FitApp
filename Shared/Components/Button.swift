@@ -14,15 +14,17 @@ struct FButton: View {
 
         }) {
             ZStack {
-                RoundedRectangle(cornerRadius: 30)
-                    .frame(height: 45)
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(height: 63)
                     .padding(EdgeInsets(top: 0, leading: 30, bottom: 0, trailing: 30))
-                .foregroundColor(FColor.lightGrayColor)
+                    .foregroundColor(.white.opacity(0.5))
                 HStack(spacing: 100) {
                     Text("Go to my training")
-                        .font(.custom("RedHatText-Regular.ttf", size: 17))
-                    .foregroundColor(FColor.primaryColor)
+                        .font(.custom("RedHatText-Bold", size: 24))
+                        .foregroundColor(.white)
                     Image(systemName: "arrow.right")
+                        .resizable()
+                        .frame(width: 20, height: 20)
                         .foregroundColor(FColor.primaryColor)
                 }
             }

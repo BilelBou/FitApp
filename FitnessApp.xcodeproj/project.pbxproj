@@ -57,6 +57,8 @@
 		24FD7D6F27404346001CD27F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D6E27404346001CD27F /* HomeViewModel.swift */; };
 		24FD7D7027404346001CD27F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D6E27404346001CD27F /* HomeViewModel.swift */; };
 		24FD7D7527404FF7001CD27F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FD7D7427404FF7001CD27F /* HealthKit.framework */; };
+		24FD7D7727405F39001CD27F /* GoalsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D7627405F39001CD27F /* GoalsCard.swift */; };
+		24FD7D7827405F39001CD27F /* GoalsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D7627405F39001CD27F /* GoalsCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +92,7 @@
 		24FD7D7127404C4E001CD27F /* FitnessApp--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FitnessApp--iOS--Info.plist"; sourceTree = "<group>"; };
 		24FD7D7227404FF7001CD27F /* FitnessApp (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FitnessApp (iOS).entitlements"; sourceTree = "<group>"; };
 		24FD7D7427404FF7001CD27F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		24FD7D7627405F39001CD27F /* GoalsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,7 @@
 				2469DCB5273FE08C00AD7894 /* LottieView.swift */,
 				24FD7D482740316E001CD27F /* HomeCards.swift */,
 				24FD7D6B27403F53001CD27F /* Button.swift */,
+				24FD7D7627405F39001CD27F /* GoalsCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -371,6 +375,7 @@
 				2469DC9C273EB33E00AD7894 /* DaysComponent.swift in Sources */,
 				24FD7D6F27404346001CD27F /* HomeViewModel.swift in Sources */,
 				2469DCAC273EC45D00AD7894 /* ExerciceAPI.swift in Sources */,
+				24FD7D7727405F39001CD27F /* GoalsCard.swift in Sources */,
 				24FD7D492740316E001CD27F /* HomeCards.swift in Sources */,
 				2484A792273EADB50081D5E5 /* Stylesheet.swift in Sources */,
 				24FD7D6C27403F53001CD27F /* Button.swift in Sources */,
@@ -390,6 +395,7 @@
 				2469DC9D273EB33E00AD7894 /* DaysComponent.swift in Sources */,
 				24FD7D7027404346001CD27F /* HomeViewModel.swift in Sources */,
 				2469DCAD273EC45D00AD7894 /* ExerciceAPI.swift in Sources */,
+				24FD7D7827405F39001CD27F /* GoalsCard.swift in Sources */,
 				24FD7D4A2740316E001CD27F /* HomeCards.swift in Sources */,
 				2484A793273EADB50081D5E5 /* Stylesheet.swift in Sources */,
 				24FD7D6D27403F53001CD27F /* Button.swift in Sources */,

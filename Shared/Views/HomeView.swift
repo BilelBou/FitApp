@@ -17,38 +17,39 @@ struct HomeView: View {
             FColor.primaryColor
             VStack(alignment: .leading) {
                 Spacer()
+                VStack {
                     HStack(alignment: .center) {
-                        VStack(alignment: .leading) {
-                            Text("Hello Bibo !")
-                                .font(.custom("RedHatText-Bold", size: 30))
-                                .foregroundColor(.black)
-                            Text("Have a nice day")
-                                .font(.custom("RedHatText-Regular", size: 16))
+                            VStack(alignment: .leading, spacing: 10) {
+                                Text("Hello Bibo !")
+                                    .font(.custom("RedHatText-Bold", size: 30))
+                                    .foregroundColor(.black)
+                                Text("Have a nice day")
+                                    .font(.custom("RedHatText-Regular", size: 16))
+                                    .foregroundColor(.white)
+                            }
+                            .padding()
+                            Spacer()
+                            Circle()
                                 .foregroundColor(.white)
+                                .frame(width: 70, height: 70)
                         }
-                        .padding()
-                        Spacer()
-                        Circle()
-                            .foregroundColor(.white)
-                            .frame(width: 70, height: 70)
-                    }
-                    .frame(maxWidth: .infinity)
-                .padding()
+                        .frame(maxWidth: .infinity)
+                    .padding()
+                    FButton()
+                }
                 Spacer()
                 ZStack(alignment: .bottom) {
                     RoundedRectangle(cornerRadius: 30)
                         .frame(height: 580)
                         .foregroundColor(FColor.lightGrayColor)
-                    VStack(spacing: 50) {
+                    VStack(spacing: 40) {
+                        GoalsCard()
+                            .padding(EdgeInsets(top: 0, leading: 33, bottom: 0, trailing: 33))
                         HStack(spacing: 40) {
                             HomeCards(type: .steps(steps: viewModel.steps))
                             HomeCards(type: .water)
                         }
-                        RoundedRectangle(cornerRadius: 30)
-                            .frame(width: 350, height: 260)
-                            .foregroundColor(FColor.lightGrayColor)
-                        .shadow(color: .gray, radius: 5)
-                        .padding(EdgeInsets(top: 0, leading: 0, bottom: 50, trailing: 0))
+                        .padding(EdgeInsets(top: 0, leading: 0, bottom: 60, trailing: 0))
                     }
                 }
             }
