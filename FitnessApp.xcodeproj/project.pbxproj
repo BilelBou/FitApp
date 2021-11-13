@@ -7,21 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2469DC9C273EB33E00AD7894 /* DaysComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DC9B273EB33E00AD7894 /* DaysComponent.swift */; };
+		2469DC9D273EB33E00AD7894 /* DaysComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DC9B273EB33E00AD7894 /* DaysComponent.swift */; };
+		2469DCA0273EB8BD00AD7894 /* PlusComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DC9F273EB8BD00AD7894 /* PlusComponent.swift */; };
+		2469DCA1273EB8BD00AD7894 /* PlusComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DC9F273EB8BD00AD7894 /* PlusComponent.swift */; };
+		2469DCA5273EC02A00AD7894 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DCA4273EC02A00AD7894 /* WorkoutModel.swift */; };
+		2469DCA6273EC02A00AD7894 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DCA4273EC02A00AD7894 /* WorkoutModel.swift */; };
+		2469DCA8273EC07000AD7894 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DCA7273EC07000AD7894 /* Exercise.swift */; };
+		2469DCA9273EC07000AD7894 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DCA7273EC07000AD7894 /* Exercise.swift */; };
+		2469DCAC273EC45D00AD7894 /* ExerciceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DCAB273EC45D00AD7894 /* ExerciceAPI.swift */; };
+		2469DCAD273EC45D00AD7894 /* ExerciceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DCAB273EC45D00AD7894 /* ExerciceAPI.swift */; };
+		2469DCB0273FE03700AD7894 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2469DCAF273FE03700AD7894 /* Lottie */; };
+		2469DCB3273FE06900AD7894 /* exercice.json in Resources */ = {isa = PBXBuildFile; fileRef = 2469DCB2273FE06900AD7894 /* exercice.json */; };
+		2469DCB4273FE06900AD7894 /* exercice.json in Resources */ = {isa = PBXBuildFile; fileRef = 2469DCB2273FE06900AD7894 /* exercice.json */; };
+		2469DCB6273FE08C00AD7894 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DCB5273FE08C00AD7894 /* LottieView.swift */; };
+		2469DCB7273FE08C00AD7894 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469DCB5273FE08C00AD7894 /* LottieView.swift */; };
 		2484A783273EAC660081D5E5 /* FitnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A773273EAC640081D5E5 /* FitnessAppApp.swift */; };
 		2484A784273EAC660081D5E5 /* FitnessAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A773273EAC640081D5E5 /* FitnessAppApp.swift */; };
-		2484A785273EAC660081D5E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A774273EAC640081D5E5 /* ContentView.swift */; };
-		2484A786273EAC660081D5E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A774273EAC640081D5E5 /* ContentView.swift */; };
+		2484A785273EAC660081D5E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A774273EAC640081D5E5 /* HomeView.swift */; };
+		2484A786273EAC660081D5E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A774273EAC640081D5E5 /* HomeView.swift */; };
 		2484A787273EAC660081D5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2484A775273EAC660081D5E5 /* Assets.xcassets */; };
 		2484A788273EAC660081D5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2484A775273EAC660081D5E5 /* Assets.xcassets */; };
+		2484A792273EADB50081D5E5 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A791273EADB50081D5E5 /* Stylesheet.swift */; };
+		2484A793273EADB50081D5E5 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484A791273EADB50081D5E5 /* Stylesheet.swift */; };
+		24FD7D492740316E001CD27F /* HomeCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D482740316E001CD27F /* HomeCards.swift */; };
+		24FD7D4A2740316E001CD27F /* HomeCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D482740316E001CD27F /* HomeCards.swift */; };
+		24FD7D5727403B50001CD27F /* RedHatText-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D4D27403B50001CD27F /* RedHatText-MediumItalic.ttf */; };
+		24FD7D5827403B50001CD27F /* RedHatText-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D4D27403B50001CD27F /* RedHatText-MediumItalic.ttf */; };
+		24FD7D5927403B50001CD27F /* RedHatText-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D4E27403B50001CD27F /* RedHatText-Italic.ttf */; };
+		24FD7D5A27403B50001CD27F /* RedHatText-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D4E27403B50001CD27F /* RedHatText-Italic.ttf */; };
+		24FD7D5B27403B50001CD27F /* RedHatText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D4F27403B50001CD27F /* RedHatText-Light.ttf */; };
+		24FD7D5C27403B50001CD27F /* RedHatText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D4F27403B50001CD27F /* RedHatText-Light.ttf */; };
+		24FD7D5D27403B50001CD27F /* RedHatText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5027403B50001CD27F /* RedHatText-Regular.ttf */; };
+		24FD7D5E27403B50001CD27F /* RedHatText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5027403B50001CD27F /* RedHatText-Regular.ttf */; };
+		24FD7D5F27403B50001CD27F /* RedHatText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5127403B50001CD27F /* RedHatText-Bold.ttf */; };
+		24FD7D6027403B50001CD27F /* RedHatText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5127403B50001CD27F /* RedHatText-Bold.ttf */; };
+		24FD7D6127403B50001CD27F /* RedHatText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5227403B50001CD27F /* RedHatText-SemiBold.ttf */; };
+		24FD7D6227403B50001CD27F /* RedHatText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5227403B50001CD27F /* RedHatText-SemiBold.ttf */; };
+		24FD7D6327403B50001CD27F /* RedHatText-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5327403B50001CD27F /* RedHatText-SemiBoldItalic.ttf */; };
+		24FD7D6427403B50001CD27F /* RedHatText-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5327403B50001CD27F /* RedHatText-SemiBoldItalic.ttf */; };
+		24FD7D6527403B50001CD27F /* RedHatText-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5427403B50001CD27F /* RedHatText-LightItalic.ttf */; };
+		24FD7D6627403B50001CD27F /* RedHatText-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5427403B50001CD27F /* RedHatText-LightItalic.ttf */; };
+		24FD7D6727403B50001CD27F /* RedHatText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5527403B50001CD27F /* RedHatText-Medium.ttf */; };
+		24FD7D6827403B50001CD27F /* RedHatText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5527403B50001CD27F /* RedHatText-Medium.ttf */; };
+		24FD7D6927403B50001CD27F /* RedHatText-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5627403B50001CD27F /* RedHatText-BoldItalic.ttf */; };
+		24FD7D6A27403B50001CD27F /* RedHatText-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24FD7D5627403B50001CD27F /* RedHatText-BoldItalic.ttf */; };
+		24FD7D6C27403F53001CD27F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D6B27403F53001CD27F /* Button.swift */; };
+		24FD7D6D27403F53001CD27F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D6B27403F53001CD27F /* Button.swift */; };
+		24FD7D6F27404346001CD27F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D6E27404346001CD27F /* HomeViewModel.swift */; };
+		24FD7D7027404346001CD27F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D6E27404346001CD27F /* HomeViewModel.swift */; };
+		24FD7D7527404FF7001CD27F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FD7D7427404FF7001CD27F /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2469DC9B273EB33E00AD7894 /* DaysComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysComponent.swift; sourceTree = "<group>"; };
+		2469DC9F273EB8BD00AD7894 /* PlusComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusComponent.swift; sourceTree = "<group>"; };
+		2469DCA4273EC02A00AD7894 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		2469DCA7273EC07000AD7894 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		2469DCAB273EC45D00AD7894 /* ExerciceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciceAPI.swift; sourceTree = "<group>"; };
+		2469DCB2273FE06900AD7894 /* exercice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = exercice.json; path = ../../../../../Downloads/exercice.json; sourceTree = "<group>"; };
+		2469DCB5273FE08C00AD7894 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		2484A773273EAC640081D5E5 /* FitnessAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppApp.swift; sourceTree = "<group>"; };
-		2484A774273EAC640081D5E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2484A774273EAC640081D5E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2484A775273EAC660081D5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2484A77A273EAC660081D5E5 /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2484A780273EAC660081D5E5 /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2484A782273EAC660081D5E5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		2484A791273EADB50081D5E5 /* Stylesheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
+		24FD7D482740316E001CD27F /* HomeCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCards.swift; sourceTree = "<group>"; };
+		24FD7D4D27403B50001CD27F /* RedHatText-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatText-MediumItalic.ttf"; path = "../../../../../../Downloads/Red_Hat_Text/static/RedHatText-MediumItalic.ttf"; sourceTree = "<group>"; };
+		24FD7D4E27403B50001CD27F /* RedHatText-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatText-Italic.ttf"; path = "../../../../../../Downloads/Red_Hat_Text/static/RedHatText-Italic.ttf"; sourceTree = "<group>"; };
+		24FD7D4F27403B50001CD27F /* RedHatText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatText-Light.ttf"; path = "../../../../../../Downloads/Red_Hat_Text/static/RedHatText-Light.ttf"; sourceTree = "<group>"; };
+		24FD7D5027403B50001CD27F /* RedHatText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatText-Regular.ttf"; path = "../../../../../../Downloads/Red_Hat_Text/static/RedHatText-Regular.ttf"; sourceTree = "<group>"; };
+		24FD7D5127403B50001CD27F /* RedHatText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatText-Bold.ttf"; path = "../../../../../../Downloads/Red_Hat_Text/static/RedHatText-Bold.ttf"; sourceTree = "<group>"; };
+		24FD7D5227403B50001CD27F /* RedHatText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatText-SemiBold.ttf"; path = "../../../../../../Downloads/Red_Hat_Text/static/RedHatText-SemiBold.ttf"; sourceTree = "<group>"; };
+		24FD7D5327403B50001CD27F /* RedHatText-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatText-SemiBoldItalic.ttf"; path = "../../../../../../Downloads/Red_Hat_Text/static/RedHatText-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		24FD7D5427403B50001CD27F /* RedHatText-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatText-LightItalic.ttf"; path = "../../../../../../Downloads/Red_Hat_Text/static/RedHatText-LightItalic.ttf"; sourceTree = "<group>"; };
+		24FD7D5527403B50001CD27F /* RedHatText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatText-Medium.ttf"; path = "../../../../../../Downloads/Red_Hat_Text/static/RedHatText-Medium.ttf"; sourceTree = "<group>"; };
+		24FD7D5627403B50001CD27F /* RedHatText-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RedHatText-BoldItalic.ttf"; path = "../../../../../../Downloads/Red_Hat_Text/static/RedHatText-BoldItalic.ttf"; sourceTree = "<group>"; };
+		24FD7D6B27403F53001CD27F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		24FD7D6E27404346001CD27F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		24FD7D7127404C4E001CD27F /* FitnessApp--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FitnessApp--iOS--Info.plist"; sourceTree = "<group>"; };
+		24FD7D7227404FF7001CD27F /* FitnessApp (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FitnessApp (iOS).entitlements"; sourceTree = "<group>"; };
+		24FD7D7427404FF7001CD27F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2469DCB0273FE03700AD7894 /* Lottie in Frameworks */,
+				24FD7D7527404FF7001CD27F /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,21 +112,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2469DC9E273EB8AF00AD7894 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2469DC9B273EB33E00AD7894 /* DaysComponent.swift */,
+				2469DC9F273EB8BD00AD7894 /* PlusComponent.swift */,
+				2469DCB5273FE08C00AD7894 /* LottieView.swift */,
+				24FD7D482740316E001CD27F /* HomeCards.swift */,
+				24FD7D6B27403F53001CD27F /* Button.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2469DCA2273EBFB200AD7894 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2484A774273EAC640081D5E5 /* HomeView.swift */,
+				24FD7D6E27404346001CD27F /* HomeViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2469DCA3273EBFBD00AD7894 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2469DCA4273EC02A00AD7894 /* WorkoutModel.swift */,
+				2469DCA7273EC07000AD7894 /* Exercise.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2469DCAA273EC44C00AD7894 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2469DCAB273EC45D00AD7894 /* ExerciceAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2469DCB1273FE05900AD7894 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				2469DCB2273FE06900AD7894 /* exercice.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		2484A76D273EAC640081D5E5 = {
 			isa = PBXGroup;
 			children = (
+				24FD7D7227404FF7001CD27F /* FitnessApp (iOS).entitlements */,
+				24FD7D7127404C4E001CD27F /* FitnessApp--iOS--Info.plist */,
 				2484A772273EAC640081D5E5 /* Shared */,
 				2484A781273EAC660081D5E5 /* macOS */,
 				2484A77B273EAC660081D5E5 /* Products */,
+				24FD7D7327404FF7001CD27F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2484A772273EAC640081D5E5 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				24FD7D4B27403B36001CD27F /* Ressources */,
+				2469DCB1273FE05900AD7894 /* Lottie */,
+				2469DCAA273EC44C00AD7894 /* Network */,
+				2469DCA3273EBFBD00AD7894 /* Models */,
+				2469DCA2273EBFB200AD7894 /* Views */,
+				2469DC9E273EB8AF00AD7894 /* Components */,
 				2484A773273EAC640081D5E5 /* FitnessAppApp.swift */,
-				2484A774273EAC640081D5E5 /* ContentView.swift */,
 				2484A775273EAC660081D5E5 /* Assets.xcassets */,
+				2484A791273EADB50081D5E5 /* Stylesheet.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -78,6 +203,39 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		24FD7D4B27403B36001CD27F /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				24FD7D4C27403B3D001CD27F /* Fonts */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		24FD7D4C27403B3D001CD27F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				24FD7D5127403B50001CD27F /* RedHatText-Bold.ttf */,
+				24FD7D5627403B50001CD27F /* RedHatText-BoldItalic.ttf */,
+				24FD7D4E27403B50001CD27F /* RedHatText-Italic.ttf */,
+				24FD7D4F27403B50001CD27F /* RedHatText-Light.ttf */,
+				24FD7D5427403B50001CD27F /* RedHatText-LightItalic.ttf */,
+				24FD7D5527403B50001CD27F /* RedHatText-Medium.ttf */,
+				24FD7D4D27403B50001CD27F /* RedHatText-MediumItalic.ttf */,
+				24FD7D5027403B50001CD27F /* RedHatText-Regular.ttf */,
+				24FD7D5227403B50001CD27F /* RedHatText-SemiBold.ttf */,
+				24FD7D5327403B50001CD27F /* RedHatText-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		24FD7D7327404FF7001CD27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24FD7D7427404FF7001CD27F /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +252,9 @@
 			dependencies = (
 			);
 			name = "FitnessApp (iOS)";
+			packageProductDependencies = (
+				2469DCAF273FE03700AD7894 /* Lottie */,
+			);
 			productName = "FitnessApp (iOS)";
 			productReference = 2484A77A273EAC660081D5E5 /* FitnessApp.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +303,9 @@
 				Base,
 			);
 			mainGroup = 2484A76D273EAC640081D5E5;
+			packageReferences = (
+				2469DCAE273FE03700AD7894 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 2484A77B273EAC660081D5E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -157,7 +321,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FD7D5727403B50001CD27F /* RedHatText-MediumItalic.ttf in Resources */,
+				24FD7D5927403B50001CD27F /* RedHatText-Italic.ttf in Resources */,
+				24FD7D5D27403B50001CD27F /* RedHatText-Regular.ttf in Resources */,
+				24FD7D6727403B50001CD27F /* RedHatText-Medium.ttf in Resources */,
 				2484A787273EAC660081D5E5 /* Assets.xcassets in Resources */,
+				24FD7D6527403B50001CD27F /* RedHatText-LightItalic.ttf in Resources */,
+				24FD7D6927403B50001CD27F /* RedHatText-BoldItalic.ttf in Resources */,
+				24FD7D6127403B50001CD27F /* RedHatText-SemiBold.ttf in Resources */,
+				24FD7D5B27403B50001CD27F /* RedHatText-Light.ttf in Resources */,
+				24FD7D6327403B50001CD27F /* RedHatText-SemiBoldItalic.ttf in Resources */,
+				24FD7D5F27403B50001CD27F /* RedHatText-Bold.ttf in Resources */,
+				2469DCB3273FE06900AD7894 /* exercice.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +340,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FD7D5827403B50001CD27F /* RedHatText-MediumItalic.ttf in Resources */,
+				24FD7D5A27403B50001CD27F /* RedHatText-Italic.ttf in Resources */,
+				24FD7D5E27403B50001CD27F /* RedHatText-Regular.ttf in Resources */,
+				24FD7D6827403B50001CD27F /* RedHatText-Medium.ttf in Resources */,
 				2484A788273EAC660081D5E5 /* Assets.xcassets in Resources */,
+				24FD7D6627403B50001CD27F /* RedHatText-LightItalic.ttf in Resources */,
+				24FD7D6A27403B50001CD27F /* RedHatText-BoldItalic.ttf in Resources */,
+				24FD7D6227403B50001CD27F /* RedHatText-SemiBold.ttf in Resources */,
+				24FD7D5C27403B50001CD27F /* RedHatText-Light.ttf in Resources */,
+				24FD7D6427403B50001CD27F /* RedHatText-SemiBoldItalic.ttf in Resources */,
+				24FD7D6027403B50001CD27F /* RedHatText-Bold.ttf in Resources */,
+				2469DCB4273FE06900AD7894 /* exercice.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +362,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2484A785273EAC660081D5E5 /* ContentView.swift in Sources */,
+				2469DCA0273EB8BD00AD7894 /* PlusComponent.swift in Sources */,
+				2469DCA8273EC07000AD7894 /* Exercise.swift in Sources */,
+				2469DCB6273FE08C00AD7894 /* LottieView.swift in Sources */,
+				2484A785273EAC660081D5E5 /* HomeView.swift in Sources */,
+				2469DCA5273EC02A00AD7894 /* WorkoutModel.swift in Sources */,
 				2484A783273EAC660081D5E5 /* FitnessAppApp.swift in Sources */,
+				2469DC9C273EB33E00AD7894 /* DaysComponent.swift in Sources */,
+				24FD7D6F27404346001CD27F /* HomeViewModel.swift in Sources */,
+				2469DCAC273EC45D00AD7894 /* ExerciceAPI.swift in Sources */,
+				24FD7D492740316E001CD27F /* HomeCards.swift in Sources */,
+				2484A792273EADB50081D5E5 /* Stylesheet.swift in Sources */,
+				24FD7D6C27403F53001CD27F /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +381,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2484A786273EAC660081D5E5 /* ContentView.swift in Sources */,
+				2469DCA1273EB8BD00AD7894 /* PlusComponent.swift in Sources */,
+				2469DCA9273EC07000AD7894 /* Exercise.swift in Sources */,
+				2469DCB7273FE08C00AD7894 /* LottieView.swift in Sources */,
+				2484A786273EAC660081D5E5 /* HomeView.swift in Sources */,
+				2469DCA6273EC02A00AD7894 /* WorkoutModel.swift in Sources */,
 				2484A784273EAC660081D5E5 /* FitnessAppApp.swift in Sources */,
+				2469DC9D273EB33E00AD7894 /* DaysComponent.swift in Sources */,
+				24FD7D7027404346001CD27F /* HomeViewModel.swift in Sources */,
+				2469DCAD273EC45D00AD7894 /* ExerciceAPI.swift in Sources */,
+				24FD7D4A2740316E001CD27F /* HomeCards.swift in Sources */,
+				2484A793273EADB50081D5E5 /* Stylesheet.swift in Sources */,
+				24FD7D6D27403F53001CD27F /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,11 +515,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FitnessApp (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 223PZ4VYA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FitnessApp--iOS--Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "FitApp need your health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "FitApp need your health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,11 +549,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FitnessApp (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 223PZ4VYA4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FitnessApp--iOS--Info.plist";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "FitApp need your health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "FitApp need your health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +666,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2469DCAE273FE03700AD7894 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2469DCAF273FE03700AD7894 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2469DCAE273FE03700AD7894 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2484A76E273EAC640081D5E5 /* Project object */;
 }
