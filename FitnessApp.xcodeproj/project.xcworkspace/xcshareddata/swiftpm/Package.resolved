@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "ConfettiSwiftUI",
+        "repositoryURL": "git@github.com:simibac/ConfettiSwiftUI.git",
+        "state": {
+          "branch": null,
+          "revision": "7d07b954afdeffeac7c3ed913296f7d73b600003",
+          "version": "0.3.0"
+        }
+      },
+      {
         "package": "Lottie",
         "repositoryURL": "git@github.com:airbnb/lottie-ios.git",
         "state": {

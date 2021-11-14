@@ -59,6 +59,9 @@
 		24FD7D7527404FF7001CD27F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FD7D7427404FF7001CD27F /* HealthKit.framework */; };
 		24FD7D7727405F39001CD27F /* GoalsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D7627405F39001CD27F /* GoalsCard.swift */; };
 		24FD7D7827405F39001CD27F /* GoalsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D7627405F39001CD27F /* GoalsCard.swift */; };
+		24FD7D7A274062D2001CD27F /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D79274062D2001CD27F /* CheckBox.swift */; };
+		24FD7D7B274062D2001CD27F /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD7D79274062D2001CD27F /* CheckBox.swift */; };
+		24FD7D7E2740703E001CD27F /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 24FD7D7D2740703E001CD27F /* ConfettiSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +96,7 @@
 		24FD7D7227404FF7001CD27F /* FitnessApp (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FitnessApp (iOS).entitlements"; sourceTree = "<group>"; };
 		24FD7D7427404FF7001CD27F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		24FD7D7627405F39001CD27F /* GoalsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsCard.swift; sourceTree = "<group>"; };
+		24FD7D79274062D2001CD27F /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FD7D7E2740703E001CD27F /* ConfettiSwiftUI in Frameworks */,
 				2469DCB0273FE03700AD7894 /* Lottie in Frameworks */,
 				24FD7D7527404FF7001CD27F /* HealthKit.framework in Frameworks */,
 			);
@@ -124,6 +129,7 @@
 				24FD7D482740316E001CD27F /* HomeCards.swift */,
 				24FD7D6B27403F53001CD27F /* Button.swift */,
 				24FD7D7627405F39001CD27F /* GoalsCard.swift */,
+				24FD7D79274062D2001CD27F /* CheckBox.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 			name = "FitnessApp (iOS)";
 			packageProductDependencies = (
 				2469DCAF273FE03700AD7894 /* Lottie */,
+				24FD7D7D2740703E001CD27F /* ConfettiSwiftUI */,
 			);
 			productName = "FitnessApp (iOS)";
 			productReference = 2484A77A273EAC660081D5E5 /* FitnessApp.app */;
@@ -309,6 +316,7 @@
 			mainGroup = 2484A76D273EAC640081D5E5;
 			packageReferences = (
 				2469DCAE273FE03700AD7894 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				24FD7D7C2740703E001CD27F /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
 			);
 			productRefGroup = 2484A77B273EAC660081D5E5 /* Products */;
 			projectDirPath = "";
@@ -369,6 +377,7 @@
 				2469DCA0273EB8BD00AD7894 /* PlusComponent.swift in Sources */,
 				2469DCA8273EC07000AD7894 /* Exercise.swift in Sources */,
 				2469DCB6273FE08C00AD7894 /* LottieView.swift in Sources */,
+				24FD7D7A274062D2001CD27F /* CheckBox.swift in Sources */,
 				2484A785273EAC660081D5E5 /* HomeView.swift in Sources */,
 				2469DCA5273EC02A00AD7894 /* WorkoutModel.swift in Sources */,
 				2484A783273EAC660081D5E5 /* FitnessAppApp.swift in Sources */,
@@ -389,6 +398,7 @@
 				2469DCA1273EB8BD00AD7894 /* PlusComponent.swift in Sources */,
 				2469DCA9273EC07000AD7894 /* Exercise.swift in Sources */,
 				2469DCB7273FE08C00AD7894 /* LottieView.swift in Sources */,
+				24FD7D7B274062D2001CD27F /* CheckBox.swift in Sources */,
 				2484A786273EAC660081D5E5 /* HomeView.swift in Sources */,
 				2469DCA6273EC02A00AD7894 /* WorkoutModel.swift in Sources */,
 				2484A784273EAC660081D5E5 /* FitnessAppApp.swift in Sources */,
@@ -682,6 +692,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		24FD7D7C2740703E001CD27F /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -689,6 +707,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2469DCAE273FE03700AD7894 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		24FD7D7D2740703E001CD27F /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24FD7D7C2740703E001CD27F /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

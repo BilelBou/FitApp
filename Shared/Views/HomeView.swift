@@ -7,6 +7,7 @@
 import Combine
 import SwiftUI
 import Lottie
+import ConfettiSwiftUI
 
 struct HomeView: View {
     @ObservedObject var viewModel = HomeViewModel()
@@ -40,7 +41,7 @@ struct HomeView: View {
                 Spacer()
                 ZStack(alignment: .bottom) {
                     RoundedRectangle(cornerRadius: 30)
-                        .frame(height: 580)
+                        .frame(height: 540)
                         .foregroundColor(FColor.lightGrayColor)
                     VStack(spacing: 40) {
                         GoalsCard()
